@@ -36,9 +36,35 @@ result = collection.query(
     query_embeddings=[
         question_embedding["embedding"]
     ],
-    n_results=2
+
+    n_results=2,
+
+    include=[
+        "documents",
+        "metadatas"
+    ]
 )
 
+documents = result["documents"][0]
+
+metadata = result["metadatas"][0]
+
+
+for doc, meta in zip(documents, metadata):
+
+    print("================")
+
+    print(
+        "Nguồn:",
+        meta["source"]
+    )
+
+    print(
+        "Chunk/ID:",
+        meta.get("chunk_index", meta.get("id", "N/A"))
+    )
+
+    print(doc)
 
 context = "\n".join(
     result["documents"][0]

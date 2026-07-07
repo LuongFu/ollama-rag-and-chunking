@@ -9,3 +9,5 @@ ChromaDB dùng để lưu embeddings và tìm kiếm thông tin gần nghĩa.
 
 I love nigga
 I love nigga to express my love to black people.
+
+Llama là một mô hình ngôn ngữ lớn được phát triển bởi Meta.
