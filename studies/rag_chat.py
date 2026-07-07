@@ -56,13 +56,19 @@ for doc, meta in zip(documents, metadata):
 
     print(
         "Nguồn:",
-        meta["source"]
+        meta.get("source", "N/A")
     )
+    
+    if "table" in meta:
+        print("Bảng:", meta["table"])
 
     print(
-        "Chunk/ID:",
-        meta.get("chunk_index", meta.get("id", "N/A"))
+        "ID/Chunk:",
+        meta.get("id", meta.get("chunk_index", "N/A"))
     )
+    
+    if "ten_thuoc" in meta:
+        print("Tên thuốc:", meta["ten_thuoc"])
 
     print(doc)
 

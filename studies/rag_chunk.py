@@ -2,7 +2,7 @@
 from ollama import chat
 import chromadb
 
-from splitter import split_text
+from studies.splitter import split_text
 
 
 # đọc file

@@ -1,6 +1,6 @@
 # pyrefly: ignore [missing-import]
 from ollama import chat
-from loader import load_text_file
+from studies.loader import load_text_file
 import chromadb
 
 client = chromadb.Client()

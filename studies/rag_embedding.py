@@ -2,7 +2,7 @@
 import ollama
 import chromadb
 
-from splitter import split_text
+from studies.splitter import split_text
 
 
 

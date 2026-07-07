@@ -3,8 +3,8 @@ import chromadb
 import ollama
 import hashlib
 
-from splitter import split_text
-from postgres_loader import load_products
+from studies.splitter import split_text
+from studies.postgres_loader import load_products
 
 # =========================
 # Persistent database

@@ -1,4 +1,4 @@
-from embedding import create_embedding
+from studies.embedding import create_embedding
 
 
 vector = create_embedding(
