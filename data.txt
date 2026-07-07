@@ -1,0 +1,11 @@
+Python là một ngôn ngữ lập trình bậc cao.
+Python được sử dụng nhiều trong trí tuệ nhân tạo.
+
+Ollama là công cụ chạy mô hình ngôn ngữ lớn trên máy cá nhân.
+Ollama có thể chạy các model như Llama.
+
+ChromaDB là một cơ sở dữ liệu vector.
+ChromaDB dùng để lưu embeddings và tìm kiếm thông tin gần nghĩa.
+
+I love nigga
+I love nigga to express my love to black people.
