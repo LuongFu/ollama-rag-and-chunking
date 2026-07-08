@@ -69,7 +69,7 @@ Hệ thống sử dụng các công nghệ cốt lõi:
    Hoặc chỉ tìm kiếm kết quả thô:
    ```bash
    python app/search.py
-   ```
+   ```   
 
    ## Link cào data từ Bộ Y tế https://github.com/LuongFu/DrugDataCrawler ##
 
